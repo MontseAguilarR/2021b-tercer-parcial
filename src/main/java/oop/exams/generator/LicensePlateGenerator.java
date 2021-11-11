@@ -1,6 +1,8 @@
 package oop.exams.generator;
 
-public interface LicensePlateGenerator {
+import oop.exams.exception.BadRegionException;
+
+public interface LicensePlateGenerator{
 
     String generate(String state);
 }
